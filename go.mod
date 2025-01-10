@@ -34,3 +34,7 @@ require (
 	google.golang.org/appengine v1.4.0 // indirect
 	gopkg.in/yaml.v2 v2.2.3 // indirect
 )
+
+replace (
+	"github.com/raahii/golang-grpc-realworld-example" => .
+)

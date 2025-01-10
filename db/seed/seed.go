@@ -1,4 +1,4 @@
-package main
+package seed
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 	"github.com/raahii/golang-grpc-realworld-example/db"
 )
 
-func main() {
+func Main() {
 	d, err := db.New()
 
 	if err != nil {
